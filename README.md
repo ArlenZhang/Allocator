@@ -13,10 +13,12 @@ RL games between providers and consumers.
 
 
 -- 阶段 1. 训练 --
+
 ./main.py 强化学习（Double DQN）训练入口
 ./module Java 框架，以简单 python 模拟
 ./model python 中间件，强化学习模型训练
 
 -- 阶段 2. 压测（模型本身具备通用性，但是框架目前若能把 python 转 Java 或者 python 预训练的模型数据（简单看成有输入输出的函数）
 可变成可运行脚本） --
+
 ./module/test.py 即为简单压力测试示意
